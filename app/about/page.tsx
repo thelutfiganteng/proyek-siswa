@@ -13,7 +13,7 @@ export default function AboutPage() {
     {
       name: "Mutiara Syafitri",
       role: "Co-Founder & CEO",
-      image: "/images/team/mutiara.png",
+      image: "/images/team/mutiara.jpeg",
       
     },
     {
