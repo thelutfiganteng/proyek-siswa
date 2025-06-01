@@ -206,10 +206,9 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Visi</h3>
                 <p className="text-gray-700">
-                  Menjadi katalisator utama dalam menciptakan generasi wirausaha muda Indonesia yang inovatif, tangguh,
-                  dan berdampak positif bagi masyarakat.
+                Menjadi platform utama penggerak inovasi pendidikan di Indonesia melalui pendanaan terbuka dan kolaboratif bagi mahasiswa.
                 </p>
-                <ul className="mt-6 space-y-2 text-left">
+                {/* <ul className="mt-6 space-y-2 text-left">
                   {[
                     "Menciptakan 10.000 wirausaha muda baru di Indonesia dalam 5 tahun",
                     "Menghasilkan 100+ hak paten baru dari penelitian di Indonesia dalam 5 tahun",
@@ -229,7 +228,7 @@ export default function AboutPage() {
                       <span>{item}</span>
                     </motion.li>
                   ))}
-                </ul>
+                </ul> */}
               </div>
             </MotionCard>
           </div>
