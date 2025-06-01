@@ -179,7 +179,7 @@ export default function AboutPage() {
                 <ul className="mt-6 space-y-2 text-left">
                   {[
                     "Membantu pelajar dan mahasiswa mewujudkan ide bisnis dan penelitian mereka",
-                    "Membangun ekosistem kewirausahaan yang inklusif dan berkelanjutan",
+                    "Membangun riset dan kewirausahaan yang inklusif dan berkelanjutan",
                     "Menghubungkan pelajar dengan mentor dan jaringan profesional",
                     "Mengedukasi generasi muda tentang kewirausahaan dan inovasi",
                   ].map((item, index) => (
