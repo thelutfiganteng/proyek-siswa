@@ -159,7 +159,7 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold mb-4">Misi & Visi Kami</h2>
+            <h2 className="text-3xl font-bold mb-4">Visi & Misi Kami</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Kami berkomitmen untuk mendukung riset dan kewirausahaan pelajar di Indonesia
             </p>
@@ -171,9 +171,41 @@ export default function AboutPage() {
                 <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
                   <Heart className="h-8 w-8 text-blue-600" />
                 </div>
+                <h3 className="text-xl font-semibold mb-4">Visi</h3>
+                <p className="text-gray-700">
+                Menjadi platform utama penggerak inovasi pendidikan di Indonesia melalui pendanaan terbuka dan kolaboratif bagi pelajar dan mahasiswa.
+                </p>
+                {/* <ul className="mt-6 space-y-2 text-left">
+                  {[
+                    "Membantu pelajar dan mahasiswa mewujudkan ide bisnis dan penelitian mereka",
+                    "Membangun riset dan kewirausahaan yang inklusif dan berkelanjutan",
+                    "Menghubungkan pelajar dengan mentor dan jaringan profesional",
+                    "Mengedukasi generasi muda tentang kewirausahaan dan inovasi",
+                  ].map((item, index) => (
+                    <motion.li
+                      key={index}
+                      initial={{ opacity: 0, x: -10 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: 0.1 * index }}
+                      className="flex items-start gap-2"
+                    >
+                      <CheckCircle2 className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
+                      <span>{item}</span>
+                    </motion.li>
+                  ))}
+                </ul> */}
+              </div>
+            </MotionCard>
+
+            <MotionCard className="p-8" delay={0.2}>
+              <div className="flex flex-col items-center text-center">
+                <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
+                  <CheckCircle2 className="h-8 w-8 text-blue-600" />
+                </div>
                 <h3 className="text-xl font-semibold mb-4">Misi</h3>
                 <p className="text-gray-700">
-                  Menyediakan platform yang aman, transparan, dan inklusif untuk memfasilitasi pendanaan dan
+                Menyediakan platform yang aman, transparan, dan inklusif untuk memfasilitasi pendanaan dan
                   pengembangan proyek kewirausahaan pelajar dan mahasiswa di seluruh Indonesia.
                 </p>
                 <ul className="mt-6 space-y-2 text-left">
@@ -196,39 +228,6 @@ export default function AboutPage() {
                     </motion.li>
                   ))}
                 </ul>
-              </div>
-            </MotionCard>
-
-            <MotionCard className="p-8" delay={0.2}>
-              <div className="flex flex-col items-center text-center">
-                <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                  <CheckCircle2 className="h-8 w-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-semibold mb-4">Visi</h3>
-                <p className="text-gray-700">
-                Menjadi platform utama penggerak inovasi pendidikan di Indonesia melalui pendanaan terbuka dan kolaboratif bagi mahasiswa.
-                </p>
-                {/* <ul className="mt-6 space-y-2 text-left">
-                  {[
-                    "Menciptakan 10.000 wirausaha muda baru di Indonesia dalam 5 tahun",
-                    "Menghasilkan 100+ hak paten baru dari penelitian di Indonesia dalam 5 tahun",
-                    "Membangun jaringan mentor dan pendukung di seluruh Indonesia",
-                    "Menjadi platform crowdfunding edukatif terbesar di Asia Tenggara",
-                    "Berkontribusi pada pertumbuhan ekonomi kreatif dan inovatif Indonesia",
-                  ].map((item, index) => (
-                    <motion.li
-                      key={index}
-                      initial={{ opacity: 0, x: -10 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ delay: 0.1 * index }}
-                      className="flex items-start gap-2"
-                    >
-                      <CheckCircle2 className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
-                      <span>{item}</span>
-                    </motion.li>
-                  ))}
-                </ul> */}
               </div>
             </MotionCard>
           </div>
