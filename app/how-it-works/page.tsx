@@ -14,7 +14,7 @@ export default function HowItWorksPage() {
       icon: LightbulbIcon,
       title: "Buat Proyekmu",
       description:
-        "Daftarkan ide bisnismu dengan detail yang menarik dan target pendanaan yang jelas. Semakin detail dan menarik proyekmu, semakin besar peluang untuk mendapatkan dukungan.",
+        "Daftarkan ide riset dan penelitianmu dengan detail yang menarik dan target pendanaan yang jelas. Semakin detail dan menarik proyekmu, semakin besar peluang untuk mendapatkan dukungan.",
       details: [
         "Buat akun di ProyekSiswa.id",
         "Isi formulir pembuatan proyek dengan lengkap",
@@ -56,7 +56,7 @@ export default function HowItWorksPage() {
       icon: CheckCircle2,
       title: "Wujudkan Ide",
       description:
-        "Gunakan dana dan bimbingan untuk merealisasikan ide bisnismu. Laporkan perkembangan dan hasil akhir kepada pendukung.",
+        "Gunakan dana dan bimbingan untuk merealisasikan ide riset dan penelitianmu. Laporkan perkembangan dan hasil akhir kepada pendukung.",
       details: [
         "Buat rencana implementasi yang detail",
         "Gunakan dana sesuai dengan rencana yang telah dibuat",
@@ -95,7 +95,7 @@ export default function HowItWorksPage() {
     {
       question: "Siapa yang bisa membuat proyek di ProyekSiswa.id?",
       answer:
-        "ProyekSiswa.id terbuka untuk semua pelajar dan mahasiswa di Indonesia yang memiliki ide bisnis inovatif. Kamu bisa mendaftar sebagai individu atau tim dengan minimal satu anggota yang masih berstatus pelajar atau mahasiswa aktif.",
+        "ProyekSiswa.id terbuka untuk semua pelajar dan mahasiswa di Indonesia yang memiliki ide riset dan penelitian inovatif. Kamu bisa mendaftar sebagai individu atau tim dengan minimal satu anggota yang masih berstatus pelajar atau mahasiswa aktif.",
     },
     {
       question: "Berapa biaya yang dikenakan untuk membuat proyek?",
@@ -138,7 +138,7 @@ export default function HowItWorksPage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl max-w-2xl mx-auto"
           >
-            Pelajari bagaimana platform kami membantu pelajar dan mahasiswa mewujudkan ide bisnis mereka melalui
+            Pelajari bagaimana platform kami membantu pelajar dan mahasiswa mewujudkan ide riset dan penelitian mereka melalui
             crowdfunding
           </motion.p>
         </div>
@@ -253,7 +253,7 @@ export default function HowItWorksPage() {
         >
           <h2 className="text-3xl font-bold mb-4">Siap Memulai Perjalanan Penelitianmu?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Bergabunglah dengan ribuan pelajar dan mahasiswa yang telah mewujudkan ide bisnisnya melalui ProyekSiswa.id
+            Bergabunglah dengan ribuan pelajar dan mahasiswa yang telah mewujudkan ide riset dan penelitiannya melalui ProyekSiswa.id
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <MotionButton size="lg" className="bg-white text-blue-700 hover:bg-gray-100">

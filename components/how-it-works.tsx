@@ -8,7 +8,7 @@ export default function HowItWorks() {
     {
       icon: LightbulbIcon,
       title: "Buat Proyekmu",
-      description: "Daftarkan ide bisnismu dengan detail yang menarik dan target pendanaan yang jelas",
+      description: "Daftarkan ide riset dan penelitianmu dengan detail yang menarik dan target pendanaan yang jelas",
     },
     {
       icon: Users,
@@ -23,7 +23,7 @@ export default function HowItWorks() {
     {
       icon: CheckCircle2,
       title: "Wujudkan Ide",
-      description: "Gunakan dana dan bimbingan untuk merealisasikan ide bisnismu",
+      description: "Gunakan dana dan bimbingan untuk merealisasikan ide riset dan penelitianmu",
     },
   ]
 

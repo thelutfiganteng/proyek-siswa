@@ -86,7 +86,7 @@ export default function Home() {
             className="md:w-1/2"
           >
             <VideoPlayer
-              videoUrl="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              videoUrl="https://www.youtube.com/embed/Iqr3XIhSnUQ"
               thumbnailUrl="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop"
               title="Pengenalan ProyekSiswa.id"
             />
@@ -222,7 +222,7 @@ export default function Home() {
               {
                 icon: DollarSign,
                 title: "Pendanaan Terpercaya",
-                description: "Sistem pendanaan yang transparan dan aman untuk mewujudkan ide penilitian dan bisnismu",
+                description: "Sistem pendanaan yang transparan dan aman untuk mewujudkan ide riset dan penelitianmu ",
                 image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=200&fit=crop",
               },
               {
@@ -240,7 +240,7 @@ export default function Home() {
               {
                 icon: Award,
                 title: "Pengakuan & Jaringan",
-                description: "Bangun portofolio dan jaringan dengan komunitas wirausaha muda",
+                description: "Bangun portofolio dan jaringan dengan komunitas peneliti muda",
                 image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=200&fit=crop",
               },
             ].map((benefit, index) => (
@@ -308,7 +308,7 @@ export default function Home() {
           >
             <h2 className="text-3xl font-bold mb-4">Video Kisah Sukses</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Saksikan perjalanan inspiratif para alumni ProyekSiswa.id yang telah berhasil membangun bisnis mereka
+              Saksikan perjalanan inspiratif para alumni ProyekSiswa.id yang telah berhasil membangun bisnis dari riset dan penelitian mereka
             </p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -316,17 +316,17 @@ export default function Home() {
               {
                 title: "Perjalanan GreenTech Solutions",
                 thumbnail: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400&h=300&fit=crop",
-                videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                videoUrl: "https://www.youtube.com/embed/Iqr3XIhSnUQ",
               },
               {
                 title: "EduApp Indonesia Story",
                 thumbnail: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
-                videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                videoUrl: "https://www.youtube.com/embed/Iqr3XIhSnUQ",
               },
               {
                 title: "FoodTech Nusantara Journey",
                 thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
-                videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                videoUrl: "https://www.youtube.com/embed/Iqr3XIhSnUQ",
               },
             ].map((video, index) => (
               <motion.div
@@ -354,7 +354,7 @@ export default function Home() {
         >
           <h2 className="text-3xl font-bold mb-4">Siap Memulai Perjalanan Penelitianmu?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Bergabunglah dengan ribuan pelajar dan mahasiswa yang telah mewujudkan ide bisnisnya melalui ProyekSiswa.id
+            Bergabunglah dengan ribuan pelajar dan mahasiswa yang telah mewujudkan ide riset dan penelitiannya melalui ProyekSiswa.id
           </p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
