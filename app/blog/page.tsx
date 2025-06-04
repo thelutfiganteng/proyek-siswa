@@ -32,7 +32,7 @@ export default function BlogPage() {
       id: "2",
       title: "Cara Membuat Pitch Deck yang Menarik untuk Investor",
       excerpt:
-        "Panduan lengkap membuat presentasi pitch deck yang efektif untuk meyakinkan investor mendanai proyek kewirausahaanmu.",
+        "Panduan lengkap membuat presentasi pitch deck yang efektif untuk meyakinkan investor mendanai proyek riset dan penelitianmu.",
       image: "https://i.pinimg.com/736x/b8/e8/0a/b8e80a0d0587467b14b51d05712340d7.jpg",
       category: "Pitching",
       author: "Anisa Rahma",

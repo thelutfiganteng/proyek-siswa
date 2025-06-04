@@ -94,7 +94,7 @@ export default function AboutPage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl max-w-2xl mx-auto"
           >
-            Platform crowdfunding pertama di Indonesia yang didedikasikan untuk mendukung proyek kewirausahaan pelajar
+            Platform crowdfunding pertama di Indonesia yang didedikasikan untuk mendukung proyek Riset dan Penelitian pelajar
             dan mahasiswa
           </motion.p>
         </div>
@@ -119,7 +119,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   Didirikan pada tahun 2025 oleh sekelompok mahasiswa perguruan tinggi yang memiliki passion di bidang
-                  kewirausahaan dan pendidikan, ProyekSiswa.id hadir sebagai jembatan antara ide brilian anak muda
+                  Riset, Penelitian dan pendidikan, ProyekSiswa.id hadir sebagai jembatan antara ide brilian anak muda
                   Indonesia dengan sumber daya yang mereka butuhkan.
                 </p>
                 <p>
@@ -161,7 +161,7 @@ export default function AboutPage() {
           >
             <h2 className="text-3xl font-bold mb-4">Visi & Misi Kami</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Kami berkomitmen untuk mendukung riset dan kewirausahaan pelajar di Indonesia
+              Kami berkomitmen untuk mendukung riset dan penelitian pelajar di Indonesia
             </p>
           </motion.div>
 
@@ -206,14 +206,14 @@ export default function AboutPage() {
                 <h3 className="text-xl font-semibold mb-4">Misi</h3>
                 <p className="text-gray-700">
                 Menyediakan platform yang aman, transparan, dan inklusif untuk memfasilitasi pendanaan dan
-                  pengembangan proyek kewirausahaan pelajar dan mahasiswa di seluruh Indonesia.
+                  pengembangan proyek Riset dan Penelitian pelajar dan mahasiswa di seluruh Indonesia.
                 </p>
                 <ul className="mt-6 space-y-2 text-left">
                   {[
                     "Membantu pelajar dan mahasiswa mewujudkan ide bisnis dan penelitian mereka",
-                    "Membangun riset dan kewirausahaan yang inklusif dan berkelanjutan",
+                    "Membangun riset dan penelitian yang inklusif dan berkelanjutan",
                     "Menghubungkan pelajar dengan mentor dan jaringan profesional",
-                    "Mengedukasi generasi muda tentang kewirausahaan dan inovasi",
+                    "Mengedukasi generasi muda tentang Penelitian dan inovasi",
                   ].map((item, index) => (
                     <motion.li
                       key={index}
@@ -246,7 +246,7 @@ export default function AboutPage() {
           >
             <h2 className="text-3xl font-bold mb-4">Tim Kami</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Kenali orang-orang di balik ProyekSiswa.id yang berdedikasi untuk mendukung wirausaha muda Indonesia
+              Kenali orang-orang di balik ProyekSiswa.id yang berdedikasi untuk mendukung Riseter dan Peneliti muda Indonesia
             </p>
           </motion.div>
 
@@ -288,7 +288,7 @@ export default function AboutPage() {
           >
             <h2 className="text-3xl font-bold mb-4">Mitra Kami</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Kami berkolaborasi dengan berbagai institusi dan organisasi untuk mendukung wirausaha muda
+              Kami berkolaborasi dengan berbagai institusi dan organisasi untuk mendukung Riseter dan Peneliti muda
             </p>
           </motion.div>
 
@@ -383,7 +383,7 @@ export default function AboutPage() {
         >
           <h2 className="text-3xl font-bold mb-4">Bergabunglah dengan Komunitas Kami</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Jadilah bagian dari gerakan mendukung wirausaha muda Indonesia
+            Jadilah bagian dari gerakan mendukung Peneliti muda Indonesia
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <MotionButton size="lg" className="bg-white text-blue-700 hover:bg-gray-100">

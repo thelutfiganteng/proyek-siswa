@@ -56,7 +56,7 @@ export default function CreateProjectPage() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-2">Buat Proyek Baru</h1>
         <p className="text-gray-600 mb-8">
-          Isi formulir berikut untuk membuat kampanye crowdfunding untuk proyek kewirausahaanmu
+          Isi formulir berikut untuk membuat kampanye crowdfunding untuk proyek riset dan penelitianmu
         </p>
 
         <form onSubmit={handleSubmit}>

@@ -11,7 +11,7 @@ import SplashProvider from "@/components/splash-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ProyekSiswa.id - Platform Crowdfunding Kewirausahaan Pelajar",
+  title: "ProyekSiswa.id - Platform Crowdfunding Riset dan Penelitian Pelajar",
   description:
     "Platform crowdfunding pertama di Indonesia yang didedikasikan untuk mendukung proyek kewirausahaan pelajar dan mahasiswa.",
     generator: 'NeoByte'

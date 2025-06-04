@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">ProyekSiswa.id</h3>
             <p className="text-gray-400 mb-4">
-              Platform crowdfunding pertama di Indonesia yang didedikasikan untuk mendukung proyek kewirausahaan pelajar
+              Platform crowdfunding pertama di Indonesia yang didedikasikan untuk mendukung proyek riset dan penelitian pelajar
               dan mahasiswa.
             </p>
             <div className="flex space-x-4">

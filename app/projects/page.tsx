@@ -18,7 +18,7 @@ export default function ProjectsPage() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
           <div>
             <h1 className="text-3xl font-bold mb-2">Jelajahi Proyek</h1>
-            <p className="text-gray-600">Temukan dan dukung proyek kewirausahaan pelajar yang inovatif</p>
+            <p className="text-gray-600">Temukan dan dukung proyek riset dan penelitian pelajar yang inovatif</p>
           </div>
           <Button asChild>
             <a href="/projects/create">Mulai Proyekmu</a>

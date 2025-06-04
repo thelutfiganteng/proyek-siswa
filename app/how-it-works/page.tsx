@@ -251,7 +251,7 @@ export default function HowItWorksPage() {
           transition={{ duration: 0.6 }}
           className="container mx-auto px-4 md:px-6 text-center"
         >
-          <h2 className="text-3xl font-bold mb-4">Siap Memulai Perjalanan Wirausahamu?</h2>
+          <h2 className="text-3xl font-bold mb-4">Siap Memulai Perjalanan Penelitianmu?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Bergabunglah dengan ribuan pelajar dan mahasiswa yang telah mewujudkan ide bisnisnya melalui ProyekSiswa.id
           </p>
