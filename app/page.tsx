@@ -54,7 +54,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-4xl md:text-5xl font-bold mb-4"
             >
-              Wujudkan Ide Bisnismu Bersama ProyekSiswa.id
+              Wujudkan Ide Riset dan Penelitianmu Bersama ProyekSiswa.id
             </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
@@ -62,7 +62,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-xl mb-8"
             >
-              Platform crowdfunding pertama di Indonesia yang didedikasikan untuk mendukung proyek penelitian dan kewirausahaan pelajar
+              Platform crowdfunding pertama di Indonesia yang didedikasikan untuk mendukung proyek riset dan penelitian pelajar
               dan mahasiswa.
             </motion.p>
             <motion.div
